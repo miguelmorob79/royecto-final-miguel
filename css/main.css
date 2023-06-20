@@ -1,6 +1,64 @@
-* {
+* {margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 
 
 }
-header{img widht = 100%}
+ header {
+    background-color:wheat;
+    color:blue ;
+    margin-top:  0%;
+    position: absolute;
+    top:30% ;
+    right: 10%;
+    width:100 %;
 
+    
+ }
+.portada {
+    position:relative;
+    text-align: center;
+    font-size: x-large;
+    background-color: blue;
+    color: blanchedalmond;
+}
+
+.portada img {
+    width: 100%;
+    height: auto;
+}
+.home {
+  position: relative;
+  top: 0;
+  left: 0%;
+  width: 100 %;
+}
+
+.descripcion {
+    background-color: rgb(0, 162, 255);
+    color: darkblue;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+ 
+}
+.elemento1 {
+    color: blanchedalmond;
+
+}
+
+.elemento2 {
+    color: blanchedalmond;
+
+}
+.fondo {
+    background-color: rgba(0, 81, 255, 0.248);
+}
+.bio{
+    background-color:rgba(0, 81, 255, 0.248)
+}
